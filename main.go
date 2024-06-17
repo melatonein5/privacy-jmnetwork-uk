@@ -12,5 +12,5 @@ func ServeHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	//Code to serve the policy.html file
 	http.HandleFunc("/", ServeHandler)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":443", nil)
 }
